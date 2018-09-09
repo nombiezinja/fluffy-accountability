@@ -36,6 +36,8 @@ gem 'pry-rails'
 group :development, :test do
   gem 'factory_bot_rails'
   gem 'faker', :git => 'git://github.com/stympy/faker.git', :branch => 'master'
+  gem 'simplecov'
+  gem 'webmock'
 end
 
 group :development do
@@ -50,6 +52,7 @@ group :test do
   gem 'capybara-email'
   gem 'rspec-rails', '~> 3.6'
   gem 'shoulda-matchers', "~>3.1"
+  gem 'database_cleaner'
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'

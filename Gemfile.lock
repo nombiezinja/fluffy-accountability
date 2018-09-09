@@ -88,7 +88,10 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
+    crack (0.4.3)
+      safe_yaml (~> 1.0.0)
     crass (1.0.4)
+    database_cleaner (1.7.0)
     devise (4.5.0)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -96,6 +99,7 @@ GEM
       responders
       warden (~> 1.2.3)
     diff-lcs (1.3)
+    docile (1.3.1)
     erubi (1.7.1)
     execjs (2.7.0)
     factory_bot (4.11.1)
@@ -108,10 +112,12 @@ GEM
       thor (~> 0.14)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
+    hashdiff (0.3.7)
     i18n (1.1.0)
       concurrent-ruby (~> 1.0)
     interactor (3.1.1)
     io-like (0.3.0)
+    json (2.1.0)
     libv8 (3.16.14.19)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -196,6 +202,7 @@ GEM
     rspec-support (3.8.0)
     ruby_dep (1.5.0)
     rubyzip (1.2.2)
+    safe_yaml (1.0.4)
     sass (3.5.7)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
@@ -212,6 +219,11 @@ GEM
       rubyzip (~> 1.2)
     shoulda-matchers (3.1.2)
       activesupport (>= 4.0.0)
+    simplecov (0.16.1)
+      docile (~> 1.1)
+      json (>= 1.8, < 3)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.2)
     spring (2.0.2)
       activesupport (>= 4.2)
     spring-watcher-listen (2.0.1)
@@ -244,6 +256,10 @@ GEM
       activemodel (>= 5.0)
       bindex (>= 0.4.0)
       railties (>= 5.0)
+    webmock (3.4.2)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+      hashdiff
     websocket-driver (0.7.0)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.3)
@@ -261,6 +277,7 @@ DEPENDENCIES
   capybara-email
   chromedriver-helper
   coffee-rails (~> 4.2)
+  database_cleaner
   devise
   factory_bot_rails
   faker!
@@ -275,6 +292,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   selenium-webdriver
   shoulda-matchers (~> 3.1)
+  simplecov
   spring
   spring-watcher-listen (~> 2.0.0)
   therubyracer
@@ -282,6 +300,7 @@ DEPENDENCIES
   tzinfo-data
   uglifier (>= 1.3.0)
   web-console (>= 3.3.0)
+  webmock
 
 RUBY VERSION
    ruby 2.5.1p57
