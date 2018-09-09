@@ -2,9 +2,6 @@
   "RSpec": {
     "coverage": {
       "/home/tizh/fluffy_scheduler/spec/models/agreement_spec.rb": [
-
-      ],
-      "/home/tizh/fluffy_scheduler/spec/models/pair_spec.rb": [
         1,
         null,
         1,
@@ -583,6 +580,10 @@
       "/home/tizh/fluffy_scheduler/spec/factories/agreement.rb": [
         1,
         1,
+        1,
+        1,
+        1,
+        5,
         null,
         null
       ],
@@ -597,14 +598,14 @@
       "/home/tizh/fluffy_scheduler/spec/factories/user.rb": [
         1,
         1,
-        12,
-        11,
+        28,
+        27,
         1,
-        11,
+        27,
         null,
-        12,
-        12,
-        12,
+        28,
+        28,
+        28,
         null,
         null
       ],
@@ -660,9 +661,34 @@
         null,
         null,
         1,
-        7,
-        7,
+        11,
+        11,
         null,
+        null,
+        null
+      ],
+      "/home/tizh/fluffy_scheduler/app/models/agreement.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/home/tizh/fluffy_scheduler/spec/models/pair_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        4,
+        2,
+        2,
+        2,
         null,
         null
       ],
@@ -689,16 +715,8 @@
         2,
         null,
         null
-      ],
-      "/home/tizh/fluffy_scheduler/app/models/agreement.rb": [
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
       ]
     },
-    "timestamp": 1536531548
+    "timestamp": 1536531815
   }
 }

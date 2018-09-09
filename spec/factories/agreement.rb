@@ -1,4 +1,8 @@
 FactoryBot.define do 
   factory :agreement do 
-end 
+    pair 
+    created_by
+    validated_by
+    description {'a description' }
+  end 
 end 
