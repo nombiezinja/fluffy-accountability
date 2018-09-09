@@ -31,6 +31,7 @@ gem 'devise'
 gem 'interactor'
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
+gem 'pry-rails'
 
 group :development, :test do
   gem 'factory_bot_rails'
