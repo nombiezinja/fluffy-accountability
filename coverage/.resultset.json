@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/tizh/fluffy_scheduler/spec/models/agreement_spec.rb": [
+      "/home/tizh/fluffy_accountability/spec/models/agreement_spec.rb": [
         1,
         null,
         1,
@@ -18,7 +18,7 @@
         null,
         null
       ],
-      "/home/tizh/fluffy_scheduler/spec/rails_helper.rb": [
+      "/home/tizh/fluffy_accountability/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -88,14 +88,14 @@
         null,
         null
       ],
-      "/home/tizh/fluffy_scheduler/config/environment.rb": [
+      "/home/tizh/fluffy_accountability/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/home/tizh/fluffy_scheduler/config/application.rb": [
+      "/home/tizh/fluffy_accountability/config/application.rb": [
         1,
         null,
         1,
@@ -116,13 +116,13 @@
         null,
         null
       ],
-      "/home/tizh/fluffy_scheduler/config/boot.rb": [
+      "/home/tizh/fluffy_accountability/config/boot.rb": [
         1,
         null,
         1,
         1
       ],
-      "/home/tizh/fluffy_scheduler/config/environments/test.rb": [
+      "/home/tizh/fluffy_accountability/config/environments/test.rb": [
         1,
         null,
         null,
@@ -170,7 +170,7 @@
         null,
         null
       ],
-      "/home/tizh/fluffy_scheduler/config/initializers/application_controller_renderer.rb": [
+      "/home/tizh/fluffy_accountability/config/initializers/application_controller_renderer.rb": [
         null,
         null,
         null,
@@ -180,7 +180,7 @@
         null,
         null
       ],
-      "/home/tizh/fluffy_scheduler/config/initializers/assets.rb": [
+      "/home/tizh/fluffy_accountability/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -196,7 +196,7 @@
         null,
         null
       ],
-      "/home/tizh/fluffy_scheduler/config/initializers/backtrace_silencers.rb": [
+      "/home/tizh/fluffy_accountability/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -205,7 +205,7 @@
         null,
         null
       ],
-      "/home/tizh/fluffy_scheduler/config/initializers/content_security_policy.rb": [
+      "/home/tizh/fluffy_accountability/config/initializers/content_security_policy.rb": [
         null,
         null,
         null,
@@ -232,14 +232,14 @@
         null,
         null
       ],
-      "/home/tizh/fluffy_scheduler/config/initializers/cookies_serializer.rb": [
+      "/home/tizh/fluffy_accountability/config/initializers/cookies_serializer.rb": [
         null,
         null,
         null,
         null,
         1
       ],
-      "/home/tizh/fluffy_scheduler/config/initializers/devise.rb": [
+      "/home/tizh/fluffy_accountability/config/initializers/devise.rb": [
         null,
         null,
         null,
@@ -531,13 +531,13 @@
         null,
         null
       ],
-      "/home/tizh/fluffy_scheduler/config/initializers/filter_parameter_logging.rb": [
+      "/home/tizh/fluffy_accountability/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/home/tizh/fluffy_scheduler/config/initializers/inflections.rb": [
+      "/home/tizh/fluffy_accountability/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -555,13 +555,13 @@
         null,
         null
       ],
-      "/home/tizh/fluffy_scheduler/config/initializers/mime_types.rb": [
+      "/home/tizh/fluffy_accountability/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/home/tizh/fluffy_scheduler/config/initializers/wrap_parameters.rb": [
+      "/home/tizh/fluffy_accountability/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -577,7 +577,7 @@
         null,
         null
       ],
-      "/home/tizh/fluffy_scheduler/spec/factories/agreement.rb": [
+      "/home/tizh/fluffy_accountability/spec/factories/agreement.rb": [
         1,
         1,
         1,
@@ -587,7 +587,7 @@
         null,
         null
       ],
-      "/home/tizh/fluffy_scheduler/spec/factories/cancellation.rb": [
+      "/home/tizh/fluffy_accountability/spec/factories/cancellation.rb": [
         1,
         1,
         1,
@@ -595,7 +595,7 @@
         null,
         null
       ],
-      "/home/tizh/fluffy_scheduler/spec/factories/pair.rb": [
+      "/home/tizh/fluffy_accountability/spec/factories/pair.rb": [
         1,
         1,
         1,
@@ -604,7 +604,7 @@
         null,
         null
       ],
-      "/home/tizh/fluffy_scheduler/spec/factories/user.rb": [
+      "/home/tizh/fluffy_accountability/spec/factories/user.rb": [
         1,
         1,
         26,
@@ -618,13 +618,13 @@
         null,
         null
       ],
-      "/home/tizh/fluffy_scheduler/config/routes.rb": [
+      "/home/tizh/fluffy_accountability/config/routes.rb": [
         1,
         1,
         null,
         null
       ],
-      "/home/tizh/fluffy_scheduler/app/models/user.rb": [
+      "/home/tizh/fluffy_accountability/app/models/user.rb": [
         1,
         null,
         null,
@@ -638,21 +638,21 @@
         1,
         null
       ],
-      "/home/tizh/fluffy_scheduler/app/models/application_record.rb": [
+      "/home/tizh/fluffy_accountability/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/home/tizh/fluffy_scheduler/app/helpers/application_helper.rb": [
+      "/home/tizh/fluffy_accountability/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/home/tizh/fluffy_scheduler/spec/support/factory_bot.rb": [
+      "/home/tizh/fluffy_accountability/spec/support/factory_bot.rb": [
         1,
         1,
         null
       ],
-      "/home/tizh/fluffy_scheduler/spec/support/shoulda.rb": [
+      "/home/tizh/fluffy_accountability/spec/support/shoulda.rb": [
         1,
         1,
         null,
@@ -663,7 +663,7 @@
         null,
         null
       ],
-      "/home/tizh/fluffy_scheduler/spec/support/database_cleaner.rb": [
+      "/home/tizh/fluffy_accountability/spec/support/database_cleaner.rb": [
         1,
         1,
         1,
@@ -677,7 +677,7 @@
         null,
         null
       ],
-      "/home/tizh/fluffy_scheduler/app/models/agreement.rb": [
+      "/home/tizh/fluffy_accountability/app/models/agreement.rb": [
         1,
         1,
         1,
@@ -685,7 +685,7 @@
         1,
         null
       ],
-      "/home/tizh/fluffy_scheduler/spec/models/cancellation_spec.rb": [
+      "/home/tizh/fluffy_accountability/spec/models/cancellation_spec.rb": [
         1,
         null,
         1,
@@ -701,13 +701,13 @@
         null,
         null
       ],
-      "/home/tizh/fluffy_scheduler/app/models/cancellation.rb": [
+      "/home/tizh/fluffy_accountability/app/models/cancellation.rb": [
         1,
         1,
         1,
         null
       ],
-      "/home/tizh/fluffy_scheduler/spec/models/pair_spec.rb": [
+      "/home/tizh/fluffy_accountability/spec/models/pair_spec.rb": [
         1,
         null,
         1,
@@ -724,14 +724,14 @@
         null,
         null
       ],
-      "/home/tizh/fluffy_scheduler/app/models/pair.rb": [
+      "/home/tizh/fluffy_accountability/app/models/pair.rb": [
         1,
         1,
         1,
         1,
         null
       ],
-      "/home/tizh/fluffy_scheduler/spec/models/user_spec.rb": [
+      "/home/tizh/fluffy_accountability/spec/models/user_spec.rb": [
         1,
         null,
         1,
@@ -749,6 +749,6 @@
         null
       ]
     },
-    "timestamp": 1536618533
+    "timestamp": 1536618659
   }
 }

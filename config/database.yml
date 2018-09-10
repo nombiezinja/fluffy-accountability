@@ -5,15 +5,15 @@ default: &default
 
 development:
   <<: *default
-  database: fluffy_scheduler
+  database: fluffy_accountability
 
 test:
   <<: *default
-  database: fluffy_scheduler_test
+  database: fluffy_accountability_test
 
 staging:
   <<: *default
-  database: fluffy_scheduler_staging
+  database: fluffy_accountability_staging
 
 production:
   <<: *default
