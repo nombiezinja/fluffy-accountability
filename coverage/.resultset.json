@@ -10,12 +10,6 @@
         1,
         null,
         null,
-        1,
-        4,
-        2,
-        2,
-        2,
-        null,
         null
       ],
       "/home/tizh/fluffy_scheduler/spec/rails_helper.rb": [
@@ -581,9 +575,17 @@
         1,
         1,
         1,
+        3,
+        3,
+        3,
+        null,
+        null
+      ],
+      "/home/tizh/fluffy_scheduler/spec/factories/cancellation.rb": [
         1,
         1,
-        5,
+        1,
+        2,
         null,
         null
       ],
@@ -592,20 +594,21 @@
         1,
         1,
         1,
+        7,
         null,
         null
       ],
       "/home/tizh/fluffy_scheduler/spec/factories/user.rb": [
         1,
         1,
-        28,
-        27,
+        16,
+        15,
         1,
-        27,
+        15,
         null,
-        28,
-        28,
-        28,
+        16,
+        16,
+        16,
         null,
         null
       ],
@@ -622,6 +625,7 @@
         1,
         null,
         null,
+        1,
         1,
         1,
         1,
@@ -661,8 +665,8 @@
         null,
         null,
         1,
-        11,
-        11,
+        9,
+        9,
         null,
         null,
         null
@@ -672,7 +676,24 @@
         1,
         1,
         1,
+        1,
+        null
+      ],
+      "/home/tizh/fluffy_scheduler/spec/models/cancellation_spec.rb": [
+        1,
         null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/home/tizh/fluffy_scheduler/app/models/cancellation.rb": [
+        1,
+        1,
+        1,
         null
       ],
       "/home/tizh/fluffy_scheduler/spec/models/pair_spec.rb": [
@@ -717,6 +738,6 @@
         null
       ]
     },
-    "timestamp": 1536531815
+    "timestamp": 1536618112
   }
 }

@@ -8,4 +8,5 @@ class User < ApplicationRecord
   has_many :pairs, as: :personB, foreign_key: :personB_id    
   has_many :agreements, as: :created_by, foreign_key: :created_by_id
   has_many :agreements, as: :validated_by, foreign_key: :validated_by_id
+  has_many :cancellations, as: :created_by, foreign_key: :created_by_id
 end

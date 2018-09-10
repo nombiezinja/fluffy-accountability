@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_09_09_033053) do
+ActiveRecord::Schema.define(version: 2018_09_10_212034) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -29,9 +29,19 @@ ActiveRecord::Schema.define(version: 2018_09_09_033053) do
     t.index ["validated_by_id"], name: "index_agreements_on_validated_by_id"
   end
 
+  create_table "cancellations", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.bigint "agreement_id", null: false
+    t.bigint "created_by_id", null: false
+    t.index ["agreement_id"], name: "index_cancellations_on_agreement_id"
+    t.index ["created_by_id"], name: "index_cancellations_on_created_by_id"
+  end
+
   create_table "pairs", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.boolean "confirmed"
     t.bigint "personA_id", null: false
     t.bigint "personB_id", null: false
     t.index ["personA_id"], name: "index_pairs_on_personA_id"
@@ -57,6 +67,7 @@ ActiveRecord::Schema.define(version: 2018_09_09_033053) do
 
   add_foreign_key "agreements", "users", column: "created_by_id"
   add_foreign_key "agreements", "users", column: "validated_by_id"
+  add_foreign_key "cancellations", "users", column: "created_by_id"
   add_foreign_key "pairs", "users", column: "personA_id"
   add_foreign_key "pairs", "users", column: "personB_id"
 end

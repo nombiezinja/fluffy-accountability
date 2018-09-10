@@ -19,7 +19,6 @@
 * Each time a cancellation is created, the canceling percon's cancellation tally goes up one point in the pair accountability scoreboard
 
 
-
 v2
 * users can log in with facebook and google 
 * pair can initiate dispute on fulfillment and upload evidence
