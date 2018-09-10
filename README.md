@@ -17,8 +17,9 @@
 * if both filled out but there is a disagreement, then fulfillment is unresolved and a dispute can be initiated 
 #### accountability
 * Each time a cancellation is created, the canceling percon's cancellation tally goes up one point in the pair accountability scoreboard
+* Accountability score can be calculated from a certain date, defaults to the beginning of the pair's establishment, but pair has a choice of initiating a clean slate, which sets the calculation of accountability score to the date of the clean slate initiation confirmation
 
 
-v2
+### v2
 * users can log in with facebook and google 
 * pair can initiate dispute on fulfillment and upload evidence
