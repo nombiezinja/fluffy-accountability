@@ -30,7 +30,7 @@ gem 'figaro'
 gem 'devise'
 gem 'interactor'
 gem 'bootstrap-sass', '~> 3.2.0'
-gem 'autoprefixer-rails'
+gem 'autoprefixer-rails', '8.6.5'
 gem 'pry-rails'
 
 group :development, :test do
