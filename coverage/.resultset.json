@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/tizh/fluffy_accountability/spec/models/agreement_spec.rb": [
+      "/home/tizh/fluffy_accountability/spec/models/accountability_period_spec.rb": [
         1,
         null,
         1,
@@ -577,6 +577,16 @@
         null,
         null
       ],
+      "/home/tizh/fluffy_accountability/spec/factories/accountability_period.rb": [
+        1,
+        1,
+        1,
+        5,
+        5,
+        5,
+        null,
+        null
+      ],
       "/home/tizh/fluffy_accountability/spec/factories/agreement.rb": [
         1,
         1,
@@ -610,21 +620,21 @@
         1,
         1,
         1,
-        15,
+        19,
         null,
         null
       ],
       "/home/tizh/fluffy_accountability/spec/factories/user.rb": [
         1,
         1,
-        32,
-        31,
+        40,
+        39,
         1,
-        31,
+        39,
         null,
-        32,
-        32,
-        32,
+        40,
+        40,
+        40,
         null,
         null
       ],
@@ -641,6 +651,8 @@
         1,
         null,
         null,
+        1,
+        1,
         1,
         1,
         1,
@@ -681,9 +693,33 @@
         null,
         null,
         1,
-        17,
-        17,
+        21,
+        21,
         null,
+        null,
+        null
+      ],
+      "/home/tizh/fluffy_accountability/app/models/accountability_period.rb": [
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/home/tizh/fluffy_accountability/spec/models/agreement_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        4,
+        2,
+        2,
+        2,
         null,
         null
       ],
@@ -762,6 +798,7 @@
         1,
         1,
         1,
+        1,
         null
       ],
       "/home/tizh/fluffy_accountability/spec/models/user_spec.rb": [
@@ -782,6 +819,6 @@
         null
       ]
     },
-    "timestamp": 1536623316
+    "timestamp": 1536641268
   }
 }
