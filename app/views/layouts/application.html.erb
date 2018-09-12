@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>FluffyScheduler</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+<head>
+  <title>Fluffy Accountability</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
 
-  <body>
+  <div class="container">
+    <h4>
+    <% if notice %>
+      <%= notice %>
+    <% end %>
+    </h4>
+  </div>
+
+  <%= render 'layouts/top_nav' %>
+
+  <main class="container">
     <%= yield %>
-  </body>
+  </main>
+
+  <%= yield :end_of_body %>
+</body>
 </html>
