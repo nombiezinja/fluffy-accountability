@@ -33,7 +33,8 @@ gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails', '8.6.5'
 gem 'pry-rails'
 gem 'font-awesome-rails'
-
+gem "jquery-rails"
+gem 'popper_js', '~> 1.12.9'
 group :development, :test do
   gem 'factory_bot_rails'
   gem 'faker', :git => 'git://github.com/stympy/faker.git', :branch => 'master'

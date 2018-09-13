@@ -1,3 +1,12 @@
 
+ /* ...
+ *= require_self
+ *= require_tree .
+ */
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+.logo {
+   display: inline-block;
+   max-width: 5%;
+}
