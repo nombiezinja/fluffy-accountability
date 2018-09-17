@@ -12,23 +12,27 @@
   <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
     <ul class="nav navbar-nav">
       <li class="active">
-        <%= link_to root_path do %>
-          Home
-        <% end %>
-      </li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li>
-        <%= link_to new_user_session_path do %>
-          <%= fa_icon "sign-in" %> Log in
-        <% end %>
+      <%= link_to('Home', root_path) %> 
       </li>
       <li>
-        <%= link_to new_user_registration_path do %>
-          <%= fa_icon "user-plus" %> Sign up
-        <% end %>
+        <%= link_to('About', root_path(anchor: 'about')) %> 
       </li>
-    </ul>
+      <li>
+        <%= link_to('Contact', root_path(anchor: 'contact')) %>  
+      </li>
+      <% if current_user %>
+        <li>
+          <%= link_to('Log out', destroy_user_session_path, method: :delete) %>
+        </li>
+      <% else %>
+        <li>
+          <%= link_to('Log in', new_user_session_path) %> 
+        </li>
+        <li>
+          <%= link_to('Sign up', new_user_registration_path) %> 
+        </li>
+      <% end %>
+      </ul>
   </div>
   <!-- /.navbar-collapse -->
 </div>
