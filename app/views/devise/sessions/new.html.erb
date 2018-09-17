@@ -1,26 +1,64 @@
-<h2>Log in</h2>
-
-<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-  <div class="field">
-    <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
-  </div>
-
-  <div class="field">
-    <%= f.label :password %><br />
-    <%= f.password_field :password, autocomplete: "current-password" %>
-  </div>
-
-  <% if devise_mapping.rememberable? -%>
-    <div class="field">
-      <%= f.check_box :remember_me %>
-      <%= f.label :remember_me %>
+<div class="heading-contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-4">
+        <div class="section-heading">
+          <h2>Log In</h2>
+        </div>
+      </div>
     </div>
-  <% end -%>
-
-  <div class="actions">
-    <%= f.submit "Log in" %>
   </div>
-<% end %>
+</div>
 
-<%= render "devise/shared/links" %>
+<div class="container">
+
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="boxed-grey">
+
+      <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+        <div class="row form-group">
+          <div class="col-md-4">
+            <%= f.label :email, class: "pull-right" %>
+          </div>
+          <div class="col-md-8">
+            <%= f.email_field :email, autofocus: true, autocomplete: "email", class:"form-control" %>
+          </div>
+        </div>
+
+        <div class="row form-group">
+          <div class="col-md-4">
+            <%= f.label :password, class: "pull-right"%>
+          </div>
+          <div class="col-md-8">
+            <%= f.password_field :password, autocomplete: "current-password", class:"form-control" %>
+          </div>
+        </div>
+
+        <div class="row form-group">
+          <div class="col-md-4">
+            <% if devise_mapping.rememberable? -%>
+              <div class="field">
+                <%= f.label :remember_me, class: "pull-right"%>
+                <%= f.check_box :remember_me, class: "checkbox-inline pull-right" %>
+              </div>
+            <% end -%>
+          </div>
+          
+          <div class="col-md-4">
+            <%= f.submit "Log in", class:"btn btn-skin pull-left"%>
+          </div>
+
+
+          <div class="col-md-4">
+          </div>
+        </div>
+      <% end %>
+
+      <%= render "devise/shared/links" %>
+
+      </div>
+    </div>
+  </div>
+
+</div>

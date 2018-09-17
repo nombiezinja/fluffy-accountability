@@ -15,6 +15,17 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  /* bring your own prefixes */
   transform: translate(-50%, -50%);
+}
+
+.pull_text_left{
+  text-align: left;
+}
+
+.add_margin {
+  margin: 5%;
+}
+
+.block-display {
+  display: block;
 }

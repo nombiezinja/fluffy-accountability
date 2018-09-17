@@ -22,7 +22,14 @@
 
 
     <main class='container'>
-      <%= yield %>
+      <% if devise_controller? %>
+        <div class='devise_container'>
+          <%= yield %>
+        </div>
+      <% else %>
+        <%= yield %>
+      <% end %>
+     
     </main>
 
 
