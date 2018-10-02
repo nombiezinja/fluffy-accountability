@@ -4,4 +4,6 @@ class Agreement < ApplicationRecord
   belongs_to :validated_by, class_name: "User", foreign_key: "validated_by_id"
   has_many :cancellations
   has_many :fulfillment_reports
+
+  
 end

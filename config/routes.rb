@@ -7,4 +7,8 @@ Rails.application.routes.draw do
   }
 
   get '/dashboard', to: 'dashboard#show'
+
+  resources :pairs
+  
+  resources :agreements
 end
